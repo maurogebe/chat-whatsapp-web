@@ -1,0 +1,103 @@
+.contain-authentication {
+    width: 40%;
+    height: 70vh;
+    padding: 20px;
+    margin: 0 auto;
+    /* background-color: rgba(0, 190, 255, 50%); */
+    background: linear-gradient(180deg, #4fd0ff 0%, #00404c 100%);
+    border-radius: 20px;
+    top: 5vh;
+    position: relative;
+    color: #00445d;
+  }
+  .title-authentication {
+    text-align: center;
+  }
+  .form-authentication {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+  .input-authentication {
+    width: 70%;
+    height: 30px;
+    padding: 0 15px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #00445d;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  .label-authentication {
+    text-align: center;
+  }
+  .text-authentication {
+    text-align: center;
+    margin: 5px 0;
+  }
+  .text-authentication--position {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    color: #95e3ff;
+  }
+  .button-authentication {
+    width: 25%;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 8px 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: rgba(24, 129, 164, 1);
+    color: #37c9ff;
+  }
+  .button-authentication-social {
+    width: 50%;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #efefef;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #00445d;
+  }
+  .icon-authentication-social {
+    position: absolute;
+    left: 4%;
+  }
+  .link-to-sign {
+    color: #95e3ff;
+  }
+
+  /* Register */
+  .contain-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10% 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  .contain-input-label {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .contain-authentication {
+      width: 90%;
+    }
+  }
