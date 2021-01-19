@@ -22,12 +22,7 @@ const Sidebar = () => {
   const history = useHistory
 
   const signOut = () => {
-    firebase.auth().signOut().then(function() {
-        alert('Sesion Cerrada')
-        history.push('/')
-      }).catch(function(error) {
-
-      });
+    localStorage.removeItem('uid')
   }
 
   return (
